@@ -9,7 +9,7 @@
  *
  * @author    Jan-Hendrik Willms <tleilax+studip@gmail.com>
  * @copyright UOL
- * @version   1.0.1
+ * @version   1.0.2
  */
 
 class BrowserUpdatePlugin extends StudIPPlugin implements SystemPlugin {
@@ -18,6 +18,7 @@ class BrowserUpdatePlugin extends StudIPPlugin implements SystemPlugin {
 	const CSS        = '/assets/browser-update.css';
 
 	private static $browser_tests = array(
+	    '~SeaMonkey/(\d+(?:\.\d+)*)~'       => '0', // ignore seamonkey
 		'~Chrome/(\d+(?:\.\d+)*)~'          => '15',
 		'~Firefox/(\d+(?:\.\d+)*)~'         => '8',
 		'~MSIE (\d+(?:\.\d+)*)~'            => '8',
