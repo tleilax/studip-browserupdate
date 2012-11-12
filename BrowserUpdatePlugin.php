@@ -19,8 +19,8 @@ class BrowserUpdatePlugin extends StudIPPlugin implements SystemPlugin {
 
 	private static $browser_tests = array(
 	    '~SeaMonkey/(\d+(?:\.\d+)*)~'       => '0', // ignore seamonkey
-		'~Chrome/(\d+(?:\.\d+)*)~'          => '15',
-		'~Firefox/(\d+(?:\.\d+)*)~'         => '8',
+		'~Chrome/(\d+(?:\.\d+)*)~'          => '20',
+		'~Firefox/(\d+(?:\.\d+)*)~'         => '13',
 		'~MSIE (\d+(?:\.\d+)*)~'            => '8',
 		'~Opera/(\d+(?:\.\d+)*)~'           => '11',
 		'~Version/(\d+(?:\.\d+)*).*Safari~' => '5.1',

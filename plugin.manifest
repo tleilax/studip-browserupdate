@@ -1,6 +1,6 @@
 pluginclassname=BrowserUpdatePlugin
 pluginname=Browser-Update!
 origin=UOL
-version=1.0.1
+version=1.0.2
 studipMinVersion=2.0
 studipMaxVersion=2.3
